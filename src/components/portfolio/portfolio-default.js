@@ -1,12 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import Isotope from 'isotope-layout'
-import Image from 'next/image';
-import { dataImage } from '../../plugin/plugin'
 import { LightgalleryProvider } from 'react-lightgallery';
 import { PhotoItem } from '../../plugin/lightGalleryOptions'
 import dynamic from 'next/dynamic';
 import Modal from 'react-modal';
-import { CloseButton } from '../../plugin/svg';
 
 export default function PortfolioDefault({ ActiveIndex, Animation }) {
 

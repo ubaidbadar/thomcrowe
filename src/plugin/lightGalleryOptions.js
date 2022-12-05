@@ -1,12 +1,7 @@
-import {
-    LightgalleryProvider,
-    LightgalleryItem
-} from "react-lightgallery";
-
+import { LightgalleryItem } from "react-lightgallery";
 import "lightgallery.js/dist/css/lightgallery.css";
 
 export const PhotoItem = ({ image, thumb }) => (
-
     <LightgalleryItem src={image} thumb={thumb} group="">
         <div className="filter-item image">
             <div className="list_inner">
@@ -24,5 +19,4 @@ export const PhotoItem = ({ image, thumb }) => (
             </div>
         </div>
     </LightgalleryItem>
-
 );
